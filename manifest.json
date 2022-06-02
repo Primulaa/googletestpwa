@@ -1,0 +1,12 @@
+{
+  "dir": "auto",
+  "display": "standalone",
+  "name": "Best App Ever!!!",
+  "short_name": "New App",
+  "scope": "https://www.olx.ua/d/zhivotnye/sobaki/",
+  "lang": "en",
+  "description": "Best App Ever!!!",
+  "theme_color": "#2e2d67",
+  "background_color": "none",
+  "icons": ["src": "ico/ico.png"]
+}
