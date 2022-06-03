@@ -7,7 +7,7 @@
   <script>
  if ('serviceWorker' in navigator) {
  navigator.serviceWorker
- .register('/sw.js')
+ .register('/googletestpwa/sw.js')
  .then(function (reg) {
  console.log('Registration succeeded. Scope is ' + reg.scope);
  })
@@ -48,7 +48,7 @@ async function install() {
 
 	<meta name="theme-color" content="#FFFFFF">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" href="/icon-192x192.png">
+	<link rel="apple-touch-icon" href="/googletestpwa/icon-192x192.png">
 
   </head>
   <body>
