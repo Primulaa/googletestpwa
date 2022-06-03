@@ -6,7 +6,7 @@ const STYLE_CACHE = "stylesheets";
 const IMAGE_CACHE = "img";
 const FONT_CACHE = "fonts";
 const QUEUE_NAME = "bgSyncQueue";
-const offlineFallbackPage = "/index.html";
+const offlineFallbackPage = "/googletestpwa/index.html";
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js');
 
@@ -179,7 +179,7 @@ self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('pwa-store').then(function(cache) {
      return cache.addAll([
-       '/icon-192x192.png'
+       '/googletestpwa/icon-192x192.png'
      ]);
    })
  );
