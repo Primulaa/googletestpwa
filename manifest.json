@@ -91,7 +91,13 @@
 			"src": "/googletestpwa/favicon-16x16-seochecker-manifest-103.png",
 			"type": "image/png",
 			"sizes": "16x16"
-		}
+		},
+		{
+            "src": "/googletestpwa/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+		
 	],
 	"prefer_related_applications": false
 }
